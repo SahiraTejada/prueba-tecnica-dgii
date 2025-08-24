@@ -9,8 +9,8 @@ export default function Header() {
                     <div className="flex items-center space-x-4">
                         <img src={Logo} alt="DGII Logo" width={120} height={40} className="h-10 w-auto" />
                         <div className="hidden md:block">
-                            <h1 className="text-xl font-bold text-gray-800">Sistema de Gestión de Contribuyentes</h1>
-                            <p className="text-sm text-gray-600">Dirección General de Impuestos Internos</p>
+                            <h1 className="text-xl font-bold text-gray-800">Sistema de Gesti&#243;n de Contribuyentes</h1>
+                            <p className="text-sm text-gray-600">Direcci&#243;n General de Impuestos Internos</p>
                         </div>
                     </div>
                 </div>

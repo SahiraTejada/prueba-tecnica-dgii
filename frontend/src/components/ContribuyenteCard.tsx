@@ -25,7 +25,7 @@ export default function ContribuyenteCard({ contribuyente, isSelected, onClick }
                 </div>
                 <div className="flex-1 min-w-0">
                     <p className="text-sm font-medium text-gray-900 truncate">{contribuyente.nombre}</p>
-                    <p className="text-sm text-gray-500">RNC/Cédula: {contribuyente.rncCedula}</p>
+                    <p className="text-sm text-gray-500">RNC/C&#233;dula: {contribuyente.rncCedula}</p>
                     <div className="flex items-center space-x-2 mt-1">
                         <span className="text-xs text-gray-500">{contribuyente.tipo}</span>
                         <span
