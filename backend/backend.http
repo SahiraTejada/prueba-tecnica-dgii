@@ -1,6 +1,30 @@
-@backend_HostAddress = http://localhost:5191
+@backend_HostAddress = http://localhost:5000
 
-GET {{backend_HostAddress}}/weatherforecast/
+
+GET {{backend_HostAddress}}/swagger/index.html
+Accept: text/html
+
+GET {{backend_HostAddress}}/swagger/v1/swagger.json
 Accept: application/json
 
-###
+
+GET {{backend_HostAddress}}/api/contribuyentes
+Accept: application/json
+
+GET {{backend_HostAddress}}/api/contribuyentes/98754321012
+Accept: application/json
+
+GET {{backend_HostAddress}}/api/contribuyentes/123456789
+Accept: application/json
+
+
+GET {{backend_HostAddress}}/api/comprobantesfiscales
+Accept: application/json
+
+
+GET {{backend_HostAddress}}/api/contribuyentes/999999999
+Accept: application/json
+
+
+GET {{backend_HostAddress}}/api/contribuyentes/
+Accept: application/json
