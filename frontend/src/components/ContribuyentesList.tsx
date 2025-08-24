@@ -4,6 +4,7 @@ import type { Contribuyente } from "../types"
 import SearchBar from "./SearchBar"
 import ContribuyenteCard from "./ContribuyenteCard"
 
+
 interface ContribuyentesListProps {
     contribuyentes: Contribuyente[]
     selectedContribuyente: Contribuyente | null
@@ -19,6 +20,8 @@ export default function ContribuyentesList({
     onSearchChange,
     onContribuyenteSelect,
 }: ContribuyentesListProps) {
+
+
     const filteredContribuyentes = contribuyentes.filter(
         (contribuyente) =>
             contribuyente.nombre.toLowerCase().includes(searchTerm.toLowerCase()) ||
