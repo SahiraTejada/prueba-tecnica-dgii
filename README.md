@@ -62,6 +62,3 @@ Este repositorio contiene una solución completa para la gestión de contribuyen
 - El backend tiene CORS habilitado para permitir peticiones desde el frontend.
 - Ambos servidores deben estar corriendo al mismo tiempo.
 
-
-
-Ejecuta los tests con:
